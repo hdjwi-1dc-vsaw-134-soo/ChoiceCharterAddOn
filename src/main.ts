@@ -17,6 +17,15 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
     })
 
+    // TS for escape room
+    WA.room.onEnterLayer("tv_zone").subscribe(() => {
+      WA.room.showLayer("tv-on");
+    });
+    
+  WA.room.onLeaveLayer("tv_zone").subscribe(() => {
+      WA.room.hideLayer("tv-on");
+    });
+
      // Julia custom
 // TEST
      WA.room.onEnterLayer("floor").subscribe(() => {
