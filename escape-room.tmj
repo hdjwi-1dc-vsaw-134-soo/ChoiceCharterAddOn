@@ -837,7 +837,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"src\/escape.ts"
         }, 
         {
          "name":"tilesetCopyright",
