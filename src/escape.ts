@@ -17,6 +17,7 @@ WA.onInit().then( async () => {
 
     WA.room.onEnterLayer("exit_zone").subscribe( async () => {
         await levelUp("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE", 10);
+        console.log('Test passed');
       });
 
 
