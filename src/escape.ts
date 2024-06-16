@@ -19,7 +19,7 @@ WA.onInit().then( async () => {
         await levelUp("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE", 10);
         console.log('Test passed');
       });
-
+      console.log(quest);
 
     WA.room.onEnterLayer('clockZone').subscribe(() => {
         const today = new Date();
