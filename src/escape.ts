@@ -1,6 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 //import { getQuest } from "@workadventure/quests";
-//import { levelUp } from "@workadventure/quests";
+import { levelUp } from "@workadventure/quests";
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
@@ -15,10 +15,10 @@ WA.onInit().then( async () => {
     // quest
     //const quest = await getQuest("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE");
     //console.log("TEST JULIA")
-    //WA.room.onEnterLayer("exit_zone").subscribe( async () => {
-      //  await levelUp("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE", 10);
-        //console.log('Test passed');
-      //});
+    WA.room.onEnterLayer("exit_zone").subscribe( async () => {
+      await levelUp("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE", 10);
+      console.log('Test passed');
+      });
       //console.log(quest);
 
     WA.room.onEnterLayer('clockZone').subscribe(() => {
