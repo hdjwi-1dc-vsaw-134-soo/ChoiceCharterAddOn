@@ -14,7 +14,7 @@ WA.onInit().then( async () => {
     console.log('Player tags: ',WA.player.tags)
     // quest
     //const quest = await getQuest("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE");
-    //console.log("TEST JULIA")
+    console.log("TEST JULIA")
     WA.room.onEnterLayer("exit_zone").subscribe( async () => {
       await levelUp("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE", 10);
       console.log('Test passed');
