@@ -1,6 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 //import { getQuest } from "@workadventure/quests";
-import { levelUp } from "@workadventure/quests";
+//import { levelUp } from "@workadventure/quests";
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
