@@ -13,13 +13,13 @@ WA.onInit().then( async () => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
     // quest
-    const quest = await getQuest("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE");
-
+    //const quest = await getQuest("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE");
+    console.log("TEST JULIA")
     WA.room.onEnterLayer("exit_zone").subscribe( async () => {
         await levelUp("1101_ESCAPE_ROOM_FIBONACCI_100_ROADS_OFFICE", 10);
         console.log('Test passed');
       });
-      console.log(quest);
+      //console.log(quest);
 
     WA.room.onEnterLayer('clockZone').subscribe(() => {
         const today = new Date();
@@ -37,31 +37,7 @@ WA.onInit().then( async () => {
     });
 
      // Julia custom
-// TEST
-     WA.room.onEnterLayer("floor").subscribe(() => {
-      WA.room.hideLayer("roof");
-      WA.room.hideLayer("walls-bg-front");
-      WA.room.hideLayer("sign");
-    });
-    
-  WA.room.onLeaveLayer("floor").subscribe(() => {
-      WA.room.showLayer("roof");
-      WA.room.showLayer("walls-bg-front");
-      WA.room.showLayer("facade-furniture-bg");
-      WA.room.showLayer("sign");
-    });
 
-    WA.room.onEnterLayer("rooms_floor").subscribe(() => {
-      WA.room.hideLayer("facade-furniture-fg");
-      WA.room.hideLayer("facade");
-      WA.room.hideLayer("facade-furniture-bg");
-    });
-    
-  WA.room.onLeaveLayer("rooms_floor").subscribe(() => {
-      WA.room.showLayer("facade-furniture-fg");
-      WA.room.showLayer("facade");
-      WA.room.showLayer("facade-furniture-bg");
-    });
     WA.room.onLeaveLayer('clockZone').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
