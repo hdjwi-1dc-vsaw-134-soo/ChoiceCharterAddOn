@@ -912,7 +912,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"parenting-campus.png"
+         "value":"escape-room.png"
         }, 
         {
          "name":"mapName",
