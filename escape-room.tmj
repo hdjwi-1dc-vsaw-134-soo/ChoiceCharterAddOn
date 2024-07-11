@@ -902,22 +902,27 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Club House is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC."
+         "value":"Escape Room is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC."
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Welcome to the Choice Charter school virtual campus!\n\nTo find out more about our school visit our website at www.choicecharterschool.org. For general questions please email:\n\ninfo@choicecharterschool.orgCEO\n\nDr. Cynthia Knight\n\ndr.knight@choicecharterschool.orgPrincipal\n\nCharles Mausser\n\ncmausser@choicecharterschool.orgUX Director\n\nMarcia Powell\n\nmpowell@choicecharterschool.orgRegistrar\n\nLori Knight\n\nlknight@choicecharterschool.orgOur mailing address is:\n\nPO Box 193\n\nUnion IA, 50258Phone: (515) 850 2545\n"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"club-house.png"
+         "value":"parenting-campus.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Club House"
+         "value":"Escape Room"
         }, 
         {
          "name":"script",
          "type":"string",
-         "value":"src\/escape.ts"
+         "value":"src\/main.ts"
         }, 
         {
          "name":"tilesetCopyright",
@@ -925,7 +930,7 @@
          "value":"This map is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC."
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
