@@ -1,6 +1,6 @@
 # 100 Roads Design
 
-![100 Roads Design logo](100roadsdesign-logo.svg)
+![100 Roads Design logo](readme/100roadsdesign-logo.svg)
 
 100 Roads has been designing and innovating in the education space since 2016. Our founder, Catherine Fraise, first designed a physical campus at Workspace Education in Bethel CT.
 
@@ -12,11 +12,15 @@ Learn more about us at https://100roadsdesign.com.
 
 ## About the map
 
-There is one virtual campus in this repository.
+There are two virtual campuses in this repository.
 
-![map](cc-parenting-campus-readme.png)
+![map](readme/cc-parenting-campus-readme.png)
 
 Map name: Choice Charter School Parenting Campus.
+
+![map](readme/cc-escape-room-readme.png)
+
+Map name: Choice Charter School Escape Room.
 
 ## Copyright
 
